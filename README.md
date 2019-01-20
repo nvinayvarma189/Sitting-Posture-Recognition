@@ -29,6 +29,15 @@ The output can tell you whether a person is sitting in a *Straight position*, *H
 2. Run `python3 posture_image.py` for testing this software with an image as input. If you wish to test it with your own image, put that image in `sample_images` folder and change accordingly on `line 237`. 
 3. Run `python3 posture_realtime.py` for testing it in real time. Please sit sufficiently far away from the system showing your lateral view. Please note that this will require a system with atleast 8GB RAM. On a 4 GB RAM, the output is not at all smooth and the output lags very much from the input frame.
 
+## Example
+
+For the below image:
+
+![image](https://github.com/nvinayvarma189/Sitting-Posture-Recognition/blob/master/sample_images/img.jpg)
+
+we would get the following output
+
+![output](https://github.com/nvinayvarma189/Sitting-Posture-Recognition/blob/master/output%20images/output.png)
 
 
 **NOTE**: This curretly works on images and in real-time (through webcam). When used in real life situations, input from webcam (front view of a person) will not work. We can install a camera which captures the lateral view of the person and the output of this camera can be given as the input to real-time version of this software. 
