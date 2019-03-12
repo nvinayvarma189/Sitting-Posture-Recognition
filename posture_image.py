@@ -234,7 +234,7 @@ if __name__ == '__main__': #main function of the program
 	if(vi == False):
 	    time.sleep(2)
 	    params, model_params = config_reader()
-	    canvas, position= process('./sample_images/straight_venu_flip.jpg', params, model_params)
+	    canvas, position= process('./sample_images/straight_flip.jpg', params, model_params)
 	    showimage(canvas)
 	    if (position == 1):
 	    	print("Hunchback")
