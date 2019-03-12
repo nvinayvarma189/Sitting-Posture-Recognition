@@ -39,7 +39,7 @@ we would get the following output
 
 ![output](https://github.com/nvinayvarma189/Sitting-Posture-Recognition/blob/master/results/output.png)
 
-*NOTE*: There are many more examples, you can see all of the trials in [RESULTS.md](RESULT.md).
+*NOTE*: There are many more examples, you can see all of the trials in [RESULTS.md](RESULTS.md).
 
 **NOTE**: This curretly works on images and in real-time (through webcam). When used in real life situations, input from webcam (front view of a person) will not work. We can install a camera which captures the lateral view of the person and the output of this camera can be given as the input to real-time version of this software. 
 
